@@ -1,0 +1,121 @@
+.property-grid .vertical-scroll {
+    width: 10px; 
+}
+  
+.property-grid .vertical-scroll .thumb {
+    width: 10px; 
+}
+
+.property-group {
+    width: 100%;
+    spacing: 0;
+}
+
+.property-grid .scrollview-contents {
+    padding: 0px;
+    width: 100%;
+    spacing: 0;
+}
+
+.property-group-header {
+    background-color: #EDEDED;
+    pointer-events: true;
+    width: 100%;
+    padding: 5px;
+    border-color: #ABABAB;
+    border-bottom-width: 1px;
+    border-bottom-size: 1px;
+    cursor: pointer;
+}
+  
+.property-group-header:hover {
+    background-color: #4766cc;
+}
+
+.property-group-contents {
+    width: 100%;
+    spacing: 1;
+    background-color: #ABABAB;
+    padding-bottom: 1px;
+}
+
+.property-group-item-label-container {
+    width: 50%;
+    height: 100%;
+    background-color: #ffffff;
+    padding-left: 5px;
+}
+
+.property-group-item-editor {
+    width: 100%;
+}
+
+.property-group-item-editor-container {
+    width: 50%;
+    background-color: #ffffff;
+}
+
+.property-group-item-label {
+    vertical-align: center;
+}
+  
+.property-group-header-label {
+    color: #000000; 
+}
+  
+.property-group-header-label:hover {
+    color: #ffffff; 
+}
+
+.property-group-header-icon {
+    vertical-align: center;
+}
+  
+.property-group-header:expanded .property-group-header-icon {
+    resource: "material/images/arrowDownBlack.png"; 
+}
+  
+.property-group-header:collapsed .property-group-header-icon {
+    resource: "material/images/arrowRightBlack.png"; 
+}
+
+.property-group .checkbox {
+    padding: 5px;
+    padding-left: 4px;
+}
+  
+.property-group .checkbox-value {
+    border-radius: 3px;
+    border-color: #4766cc;
+    border: 2px solid;
+    background: #fafafa;
+}
+  
+.property-group .checkbox-value:hover {
+    background: #b9b9b9; 
+}
+  
+.property-group .checkbox-value:selected {
+    icon: "material/images/tickwhite.png";
+    background-color: #4766cc; 
+}
+  
+.property-group .dropdown {
+    background-color: #fafafa;
+    border: 2px solid;
+    border-radius: 0px;
+    border-color: #4766cc;
+    text-align: center;
+    color: #4766cc;
+}
+  
+.property-group .dropdown:hover {
+    background-color: #4766cc;
+    color: #ffffff; 
+}
+
+.property-group .textfield {
+    border: none;
+    filter: none;
+    border-radius: 0;
+}

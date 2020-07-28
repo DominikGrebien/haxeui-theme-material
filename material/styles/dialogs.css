@@ -1,0 +1,95 @@
+/*******************************************************************/
+/* DIALOGS                                                         */
+/*******************************************************************/
+.dialog {
+    border-radius: 6px;
+    filter: drop-shadow(1, 45, #000000, 0.2, 30, 2, 1, 3, false);
+    height: auto;
+    initial-width: 300px;
+    background-color: #f6f6f6;
+    padding: 1px;
+}
+
+.message-box {
+    initial-width: 500px;
+}
+
+.dialog-container {
+    spacing: 0;
+}
+
+.dialog-content { 
+    padding: 10px;
+    border: none;
+    background-color: #ffffff;
+}
+
+.dialog-title {
+    padding: 10px;
+    border-bottom: 1px solid #ababab;
+}
+
+.dialog-title-label {
+    text-align: center;
+    font-size: 16px;
+    width: 100%;
+    vertical-align: center;
+    color: #0e0e0e;
+    font-size: 20px;
+    font-style: bold;
+}
+
+.dialog-content {
+    padding: 10px;
+}
+
+.dialog-footer-container {
+    padding: 5px;
+    border-top: 1px solid #ababab;
+}
+
+.dialog-footer {
+    padding: 5px;
+    horizontal-align: right;
+}
+
+.dialog-close-button { 
+    padding: 5px;
+    resource: "material/images/crossGrey.png";
+    vertical-align: "center";
+    cursor: "pointer";
+}
+
+.dialog-footer .button {
+    border: none;
+    background-color: #e2e2e2;
+    border-radius: 4px;
+    color: #4766cc;
+    text-align: center;
+}
+
+.dialog-footer .button:hover {
+    background-color: #b1b1b1;
+    color: #ffffff;
+}
+
+.dialog #iconImage.info {
+    resource: "material/images/dialogs/infoBlue.png";
+}
+
+.dialog #iconImage.question {
+    resource: "material/images/dialogs/questionBlue.png";
+}
+
+.dialog #iconImage.warning {
+    resource: "material/images/dialogs/exclamationYellow.png";
+}
+
+.dialog #iconImage.error {
+    resource: "material/images/dialogs/crossRed.png";
+}
+
+.modal-background {
+    opacity: 0.5;
+    background-color: #818181; 
+}

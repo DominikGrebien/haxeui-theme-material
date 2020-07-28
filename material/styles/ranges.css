@@ -1,0 +1,36 @@
+/*******************************************************************/
+/* RANGES                                                          */
+/*******************************************************************/
+.range {
+    border: 0px solid;
+    background-color: #c3cdef;
+    padding: 0px;
+    border-radius: 2px;
+}
+
+.range-value {
+    border: none;
+    border-radius: 2px;
+}
+
+.horizontal-range {
+    background-color: #c3cdef;
+    initial-width: 150px;
+    initial-height: 20px;
+}
+
+.horizontal-range .range-value {
+    background-color: #4766cc;
+    height: 100%;
+}
+
+.vertical-range {
+    background-color: #c3cdef;
+    initial-width: 20px;
+    initial-height: 150px;
+}
+
+.vertical-range .range-value {
+    background-color: #4766cc;
+    width: 100%;
+}

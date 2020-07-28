@@ -1,0 +1,26 @@
+/*******************************************************************/
+/* TEXTINPUTS                                                      */
+/*******************************************************************/
+.textfield {
+    background-color: #ffffff;
+    padding: 5px 5px;
+    border-bottom-color: #7e7e7e;
+    border-bottom-width: 2px;
+    initial-width: 150px;
+    height: auto;
+    spacing: 5px;
+    filter: drop-shadow(0, 45, #000000, 0.2, 1, 1, 1, 3, true);
+}
+
+.textfield:active {
+    border-bottom-color: #4766cc;
+}
+
+.textfield:empty {
+    color: #A0A0A0;
+}
+
+.textfield:disabled {
+    color: #909090;
+    background: #D4D4D4 #CCCCCC vertical;
+}

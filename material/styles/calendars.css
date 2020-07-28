@@ -1,0 +1,114 @@
+/************************************************************************
+** CALENDAR
+*************************************************************************/
+.calendar {
+    background-color: #FFFFFF;
+    padding: 5px;
+    border: 1px solid #ABABAB;
+    border-radius: 4px;
+}
+
+.calendar .button {
+    padding: 8px;
+}
+
+.calendar .calendar-off-day {
+    border: none;
+    background-color: #ffffff;
+    cursor: default;
+}
+
+.calendar .calendar-day {
+    border: none;
+    background-color: #ffffff;
+}
+
+.calendar .calendar-day:hover {
+    background-color: #4766cc;
+    color: #ffffff;
+}
+
+.calendar .calendar-day-selected {
+    border: none;
+    background-color: #4766cc;
+    color: #ffffff;
+    border-radius: 16px;
+}
+
+
+/************************************************************************
+** CALENDARVIEW
+*************************************************************************/
+.calendar-view {
+    background-color: #FFFFFF;
+    padding: 5px;
+    border: 0px solid;
+    border-radius: 1px;
+}
+
+.calendar-view .calendar {
+    border: none;
+    padding: 0px;
+}
+
+.calendar-view .hbox {
+	spacing: 0;
+}
+
+.calendar-view #prev-month {
+    icon: "material/images/arrowLeftBlack.png";
+    vertical-align: center;
+    border: none;
+    background-color: #ffffff;
+}
+
+.calendar-view #prev-month:hover {
+    border-radius: 0px;
+    icon: "material/images/arrowLeftWhite.png";
+    background-color: #4766cc;
+}
+
+.calendar-view #prev-month:down {
+    background-color: #c3cdef;
+}
+
+.calendar-view #next-month {
+    icon: "material/images/arrowRightBlack.png";
+    vertical-align: center;
+    border: none;
+    background-color: #ffffff;
+}
+
+.calendar-view #next-month:hover {
+    border-radius: 0px;
+    icon: "material/images/arrowRightWhite.png";
+    background-color: #4766cc;
+}
+
+.calendar-view #next-month:down {
+    background-color: #c3cdef;
+}
+
+.calendar-view #current-month {
+    vertical-align: center;
+}
+
+.calendar-view #current-year {
+    text-align: right;
+    vertical-align: center;
+	border: none;
+	padding-top: 1px;
+	background-color: #ffffff;
+}
+.calendar-view #current-year .button {
+	background-color: #ffffff;
+	border: none;
+}
+
+.calendar-view #current-year .button:hover {
+	background-color: #4766cc;
+}
+
+.calendar-view #current-year .button:down {
+	background-color: #c3cdef;
+}

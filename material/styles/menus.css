@@ -1,0 +1,92 @@
+/*******************************************************************/
+/* MENUS                                                           */
+/*******************************************************************/
+.menu {
+    background-color: #EEEEEE;
+    padding: 1px;
+    border: 1px solid #ABABAB;
+    filter: drop-shadow(2, 45, #000000, 0.15, 6, 1, 30, 35, false);
+    spacing: 0;
+    width: 200px;
+}
+
+.menubar {
+    text-align: center;
+    background-color: #ececec;
+    border-color: #ececec;
+    border-radius: 4px;
+    padding: 5px;
+    filter: drop-shadow(0, 45, #ffffff, 0.15, 1, 1, 1, 3, false);
+}
+
+.menubar-button {
+    background-color: #e2e2e2;
+    border: none;
+    color: #4766cc;
+    border-radius: 4px;
+}
+
+.menubar-button:hover {
+    background-color: #4766cc;
+    color: #ffffff;
+}
+
+.menubar-button:down {
+    background-color: #c3cdef;
+    color: #ffffff;
+}
+
+/****************************/
+
+.menu .menu-item {
+    padding: 15px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.menu .menu-item:hover {
+    background-color: #c3cdef;
+}
+
+.menu .menu-item:hover .menuitem-label, .menu .menu-item:hover .checkbox {
+    color: #ffffff;
+}
+
+.menuitem-label, .menuitem-checkbox, .menuitem-optionbox, .menuitem-shortcut-label {
+    vertical-align: center;
+}
+
+.menuitem-shortcut-label {
+    text-align: right;
+    vertical-align: center;
+    horizontal-align: right;
+}
+
+.menuitem-icon {
+    vertical-align: center;
+}
+
+.menuitem-icon {
+    vertical-align: center;
+}
+
+.menuseparator {
+    height: 10px;
+    border-bottom: 1px solid #ababab;
+    width: 100%;
+    horizontal-align: "center";
+}
+
+.menuitem-expandable {
+    resource: "material/images/arrowRightBlack.png";
+    vertical-align: "center";
+}
+
+.menuitem-expandable:hover {
+    resource: "material/images/arrowRightWhite.png";
+    vertical-align: "center";
+}
+
+.menu .menu-filler {
+    height: 6px;
+}

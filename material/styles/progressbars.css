@@ -1,0 +1,43 @@
+/*******************************************************************/
+/* PROGRESSBARS                                                    */
+/*******************************************************************/
+@keyframes indeterminate {
+    0% {
+        start: 0;
+        end: 25;
+    }
+    50% {
+        start: 75;
+        end: 100;
+    }
+    100% {
+        start: 0;
+        end: 25;
+    }
+}
+
+.progress:indeterminate {
+    animation: indeterminate 1s ease 0s infinite;
+}
+
+.horizontal-progress {
+    initial-width: 200px;
+    initial-height: 5px;
+}
+
+.horizontal-progress .progress-value {
+    background-color: #4766cc;
+    height: 100%;
+    border-radius: 2px;
+}
+
+.vertical-progress {
+    initial-width: 5px;
+    initial-height: 200px;
+}
+
+.vertical-progress .progress-value {
+    background: #4766cc;
+    width: 100%;
+    border-radius: 2px;
+}

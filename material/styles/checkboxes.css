@@ -1,0 +1,34 @@
+/*******************************************************************/
+/* CHECKBOXES                                                      */
+/*******************************************************************/
+.checkbox {
+    height: auto;
+    width: auto;
+    horizontal-spacing: 4px;
+    cursor: pointer;
+}
+
+.checkbox .checkbox-value {
+    border-radius: 3px;
+    border-color: #4766cc;
+    border: 2px solid;
+    background: #fafafa;
+    vertical-align: center;
+    width: 16px;
+    height: 16px;
+}
+
+.checkbox .checkbox-value:selected {
+    background: #4766cc;
+    icon: "material/images/tickwhite.png";
+}
+
+.checkbox .checkbox-value:hover {
+    background: #b9b9b9;
+}
+
+.checkbox-icon {
+    horizontal-align: center;
+    vertical-align: center;
+    cursor: pointer;
+}

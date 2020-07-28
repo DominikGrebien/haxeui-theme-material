@@ -1,0 +1,21 @@
+/*******************************************************************/
+/* BUTTONS                                                         */
+/*******************************************************************/
+.button {
+    background-color: #fafafa;
+    border-radius: 4px;
+    border: 3px solid;
+    border-color: #4766cc;
+    text-align: center;
+    color: #4766cc;
+    height: auto;
+    width: auto;
+    spacing: 5px 5px;
+    padding: 5px 8px;
+}
+
+.button:hover {
+    background-color: #4766cc;
+    color: #ffffff;
+    cursor: pointer;
+}

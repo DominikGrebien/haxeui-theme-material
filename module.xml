@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<module id="material">
+    <resources>
+        <resource path="material/styles" prefix="material/styles" />
+        <resource path="material/images" prefix="material/images" />
+    </resources>
+    <themes>
+        <material>
+            <style resource="material/styles/main.css" priority="-3" />
+            <style resource="material/styles/buttons.css" />
+            <style resource="material/styles/dialogs.css" />
+            <style resource="material/styles/textinputs.css" />
+            <style resource="material/styles/scrollbars.css" />
+            <style resource="material/styles/scrollview.css" />
+            <style resource="material/styles/checkboxes.css" />
+            <style resource="material/styles/optionboxes.css" />
+            <style resource="material/styles/ranges.css" />
+            <style resource="material/styles/progressbars.css" />
+            <style resource="material/styles/sliders.css" />
+            <style resource="material/styles/steppers.css" />
+            <style resource="material/styles/tabs.css" />
+            <style resource="material/styles/listview.css" />
+            <style resource="material/styles/dropdowns.css" />
+            <style resource="material/styles/tableview.css" />
+            <style resource="material/styles/switches.css" />
+            <style resource="material/styles/calendars.css" />
+            <style resource="material/styles/menus.css" />
+            <style resource="material/styles/accordion.css" />
+            <style resource="material/styles/propertygrids.css" />
+        </material>
+    </themes>
+</module>

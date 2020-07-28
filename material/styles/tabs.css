@@ -1,0 +1,130 @@
+/************************************************************************
+** TABBAR (TOP)
+*************************************************************************/
+.tabbar {
+    horizontal-spacing: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: auto;
+    width: auto;
+    border-bottom-width: 1px;
+    border-bottom-color: #ABABAB;
+    border-top-width: 0px;
+    clip: true;
+}
+
+.tabbar .tabbar-contents {
+    border: none;
+    border-bottom-width: 1px;
+    border-bottom-color: #ABABAB;
+}
+
+.tabbar-button {
+    border-color: #4766cc;
+    border-bottom-color: #ABABAB;
+    border-bottom-width: 1px;
+    background-color: #ffffff;
+    color: #4766cc;
+    padding: 6px;
+    vertical-align: bottom;
+}
+
+.tabbar-button:hover {
+    background-color: #c3cdef;
+    color: #ffffff;
+}
+
+.tabbar-button:down {
+    background-color: #c3cdef;
+    color: #ffffff;
+}
+
+.tabbar-button-selected {
+    border-radius: 0px;
+    border: 1px solid #4766cc;
+    border-bottom-width: 1px;
+    border-bottom-color: #ffffff;
+    color: #4766cc;
+    background-color: #ffffff;
+}
+
+
+.tabbar-scroll-left {
+    icon: "material/images/arrowLeftBlack.png";
+    border-radius: 0;
+    padding: 5px;
+}
+
+.tabbar-scroll-right {
+    icon: "material/images/arrowRightBlack.png";
+    border-radius: 0;
+    padding: 5px;
+}
+
+.tabbar-button-selected .label {
+}
+
+.tabbar-button-selected .icon {
+}
+
+.tabbar-button .tab-close-button {
+    resource: "material/images/crossGrey.png";
+}
+/************************************************************************
+** TABBAR (BOTTOM)
+*************************************************************************/
+.tabbar:bottom {
+    horizontal-spacing: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: auto;
+    width: auto;
+    background-color: #ffffff;
+    border-bottom-width: 0px;
+    border-top-width: 1px;
+    border-top-color: #ABABAB;
+    clip: true;
+}
+
+.tabbar:bottom .tabbar-contents {
+    border: none;
+    border-bottom-width: 0px;
+    border-top-width: 1px;
+    border-top-color: #ABABAB;
+}
+
+.tabbar-button:bottom {
+    vertical-align: top;
+}
+
+.tabbar-button-selected:bottom {
+    border-radius: 0px;
+
+    border: 1px solid #ABABAB;
+    border-top-width: 1px;
+    border-top-color: #ffffff;
+    background-color: #ffffff;
+}
+
+/************************************************************************
+** TABVIEW
+*************************************************************************/
+.tabview {
+    border: none;
+    width: auto;
+    height: auto;
+}
+
+.tabview .tabview-tabs {
+    margin-top: 1px;
+}
+
+.tabview:bottom .tabview-tabs {
+    margin-top: -1px;
+}
+
+.tabview .tabview-content {
+    border: 1px solid #ABABAB;
+    padding: 5px;
+    background-color: #ffffff;
+}

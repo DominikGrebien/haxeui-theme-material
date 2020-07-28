@@ -1,0 +1,18 @@
+{
+    "version": "1.0.0",
+    "contributors": [
+        "VeithSystemGmbH"
+    ],
+    "license": "MIT",
+    "tags": [
+        "haxeui",
+        "theme"
+    ],
+    "releasenote": "Initial Release",
+    "dependencies": {
+        "haxeui-core": ""
+    },
+    "name": "haxeui-theme-material",
+    "description": "A HaxeUI theme that looks like material design",
+    "url": "http://git.vtim.de/dominik/haxeui-theme-material"
+}

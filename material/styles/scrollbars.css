@@ -1,0 +1,63 @@
+/*******************************************************************/
+/* SCROLLS                                                         */
+/*******************************************************************/
+.scroll {
+    background-color: #e3e8f7; 
+}
+  
+.scroll .deinc {
+    height: 0px;
+    width: 0px; 
+}
+  
+.scroll .inc {
+    height: 0px;
+    width: 0px; 
+}
+  
+.scroll .thumb {
+    background-color: #4766cc;
+    border-radius: 2px; 
+}
+  
+.vertical-scroll, .thumb {
+    width: 5px;
+    border: 0px; 
+}
+  
+.vertical-scroll .deinc {
+    icon: ""; 
+}
+  
+.vertical-scroll .deinc:down {
+    icon: ""; 
+}
+  
+.vertical-scroll .inc {
+    icon: ""; 
+}
+  
+.vertical-scroll .inc:down {
+    icon: ""; 
+}
+  
+.horizontal-scroll, .thumb {
+    height: 5px;
+    border: 0px; 
+}
+  
+.horizontal-scroll .deinc {
+    icon: ""; 
+}
+  
+.horizontal-scroll .deinc:down {
+    icon: ""; 
+}
+  
+.horizontal-scroll .inc {
+    icon: ""; 
+}
+  
+.horizontal-scroll .inc:down {
+    icon: ""; 
+}

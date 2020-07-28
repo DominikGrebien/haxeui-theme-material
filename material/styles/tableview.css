@@ -1,0 +1,73 @@
+/*******************************************************************/
+/* TABLEVIEWS                                                      */
+/*******************************************************************/
+.header { 
+    width: auto;
+    height: auto;
+    spacing: 0;
+}
+
+.tableview {
+    background-color: #ffffff;
+}
+
+.tableview .button {
+    border: 0px;
+}
+
+.tableview .tableview-contents {
+    padding: 0px;
+    width: 100%;
+    spacing: 0;
+}
+
+.tableview .compounditemrenderer .itemrenderer {
+    height: auto;
+    padding: 5px;
+}
+
+.tableview .column {
+    background-color: #ececec;
+    border-color: #ffffff;
+    border-bottom-width: 3px;
+    border-bottom-color: #626262;
+    border-right-width: 3px;
+    border-right-width: #626262;
+    border-left-width: 3px;
+    border-left-width: #626262;
+    border-top-width: 3px;
+    border-top-width: #626262;
+    height: 25px;
+    border-radius: 0px;
+}
+
+.tableview .column:hover {
+    background-color: #4766cc;
+    color: #ffffff;
+}
+
+.tableview .column:down {
+    background-color: #c3cdef;
+    color: #ffffff; 
+}
+
+.tableview .even {
+    background-color: #ffffff;
+    border-bottom-width: 1px;
+    border-bottom-color: #e2e2e2; 
+}
+  
+.tableview .odd {
+    background-color: #ffffff;
+    border-bottom-width: 1px;
+    border-bottom-color: #e2e2e2; 
+}
+
+.tableview .odd:hover, .even:hover {
+    background-color: #c3cdef;
+    color: #ffffff;
+}
+
+.tableview .label {
+    width: 100%;
+}

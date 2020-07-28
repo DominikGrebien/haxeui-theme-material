@@ -1,0 +1,18 @@
+/*******************************************************************/
+/* DROPDOWNS                                                       */
+/*******************************************************************/        
+.dropdown {
+    icon: "material/images/dropdownArrowBlack.png";
+    icon-position: far-right;
+    text-align: left;
+    padding: 5px;
+}
+
+.dropdown:hover {
+    icon: "material/images/dropdownArrowWhite.png";
+}
+
+.dropdown-popup {
+    background-color: #ffffff;
+    border: 1px solid #ABABAB;
+}
