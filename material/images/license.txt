@@ -1,0 +1,4 @@
+Icons:
+    these .png files were generated from downloaded .svg files from Font Awesome Free download.
+    They stay under the same license -> CC BY 4.0 License
+    
