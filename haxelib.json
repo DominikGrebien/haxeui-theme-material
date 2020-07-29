@@ -1,11 +1,13 @@
 {
     "version": "1.0.0",
     "contributors": [
-        "VeithSystemGmbH"
+        "DominikGrebien"
     ],
     "license": "MIT",
     "tags": [
         "haxeui",
+        "ui",
+        "gui",
         "theme"
     ],
     "releasenote": "Initial Release",
