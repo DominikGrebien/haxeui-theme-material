@@ -19,8 +19,7 @@
 }
 
 .checkbox .checkbox-value:selected {
-    background: #4766cc;
-    icon: "material/images/tickwhite.png";
+    icon: "material/images/tickblue.png";
 }
 
 .checkbox .checkbox-value:hover {
@@ -31,4 +30,26 @@
     horizontal-align: center;
     vertical-align: center;
     cursor: pointer;
+}
+
+/*******************************************************************/
+/* VARIANTS                                                        */
+/*******************************************************************/
+
+.checkbox.white-tick .checkbox-value:hover {
+    icon: "material/images/tickwhite.png";
+}
+
+.checkbox.shadow .checkbox-value {
+    filter: drop-shadow(3, 45, #000000, 0.3, 2, 2, 1, 3, true);
+}
+
+.checkbox.shadow-fill .checkbox-value:selected {
+    background: #4766cc;
+    icon: "material/images/tickwhite.png";
+}
+
+.checkbox.fill .checkbox-value:selected {
+    background-color: #4766cc;
+    icon: "material/images/tickwhite.png";
 }

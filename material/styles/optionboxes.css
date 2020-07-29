@@ -60,3 +60,11 @@
     cursor: default;
     opacity: 0.5;
 }
+
+/*******************************************************************/
+/* VARIANTS                                                        */
+/*******************************************************************/
+
+.optionbox.without-shadow .optionbox-value:hover {
+    background-color: #fafafa;
+}
