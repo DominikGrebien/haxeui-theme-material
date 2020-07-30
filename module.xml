@@ -3,6 +3,7 @@
     <resources>
         <resource path="material/styles" prefix="material/styles" />
         <resource path="material/images" prefix="material/images" />
+        <resource path="material/fonts" prefix="material/fonts" />
     </resources>
     <themes>
         <material>

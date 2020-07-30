@@ -10,6 +10,7 @@
     height: auto;
     spacing: 5px;
     filter: drop-shadow(0, 45, #000000, 0.2, 1, 1, 1, 3, true);
+    font-name: "material/fonts/arial.ttf";
 }
 
 .textfield:active {
